@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service xmlns="http://www.w3.org/2007/app"
+		xmlns:atom="http://www.w3.org/2005/Atom"
+		xml:base="https://HOSTNAME.local/HSE_OData/odata/standard.odata">
+	<workspace>
+		<atom:title>Default</atom:title>
+		<collection href="Task_ЗадачаИсполнителя">
+			<atom:title>Task_ЗадачаИсполнителя</atom:title>
+		</collection>
+		<collection href="InformationRegister_БП_Мероприятия">
+			<atom:title>InformationRegister_БП_Мероприятия</atom:title>
+		</collection>
+		<collection href="Document_пбЭлектронныйНарядДопуск">
+			<atom:title>Document_пбЭлектронныйНарядДопуск</atom:title>
+		</collection>
+		<collection href="Document_пбЭлектронныйНарядДопуск_СоставБригады">
+			<atom:title>Document_пбЭлектронныйНарядДопуск_СоставБригады</atom:title>
+		</collection>
+		<collection href="Document_КартыНаблюдений">
+			<atom:title>Document_КартыНаблюдений</atom:title>
+		</collection>
+		<collection href="Document_КартыЛПАБ">
+			<atom:title>Document_КартыЛПАБ</atom:title>
+		</collection>
+		<collection href="Document_КартыЛПАБ_КатегорииРеакцийРаботника">
+			<atom:title>Document_КартыЛПАБ_КатегорииРеакцийРаботника</atom:title>
+		</collection>
+		<collection href="Catalog_Пользователи">
+			<atom:title>Catalog_Пользователи</atom:title>
+		</collection>
+		<collection href="Catalog_Пользователи_ДополнительныеРеквизиты">
+			<atom:title>Catalog_Пользователи_ДополнительныеРеквизиты</atom:title>
+		</collection>
+		<collection href="Catalog_Пользователи_КонтактнаяИнформация">
+			<atom:title>Catalog_Пользователи_КонтактнаяИнформация</atom:title>
+		</collection>
+	</workspace>
+</service>
